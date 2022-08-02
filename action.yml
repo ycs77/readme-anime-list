@@ -1,0 +1,27 @@
+name: README 追番列表
+description: '自動從 Bangumi 上抓取正在看的番劇'
+
+inputs:
+  target:
+    description: 'Target README'
+    required: true
+  template:
+    description: 'README template file'
+    required: true
+  bangumi_username:
+    description: 'The your Bangumi username or uid'
+    required: true
+  bangumi_limit:
+    description: 'Pull limit for Bangumi list'
+    default: 20
+  user_agent:
+    description: 'User agent for Bangumi API'
+    default: 'ycs77/readme-anime-list'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+
+branding:
+  icon: 'list'
+  color: 'red'
