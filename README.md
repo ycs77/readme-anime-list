@@ -85,5 +85,22 @@ jobs:
 
 給 Bangumi API 看的 User-Agent 值，參考：[關於 User-Agent](https://github.com/bangumi/api/blob/master/docs-raw/user%20agent.md)。
 
+## Config
+
+在倉庫根目錄下增加 `readme-anime-list.config.json`，可以增加一些比較複雜的設定。
+
+### `replace`
+
+替換標題文字，可以改成自己比較喜歡的翻譯。左邊是 Bangumi 原有的文字，右邊是可以自己設定的翻譯：
+
+```json
+{
+  "replace": {
+    "莉可丽丝": "莉可麗絲",
+    "神渣☆爱豆": "神渣☆偶像"
+  }
+}
+```
+
 ## License
 Under the [MIT LICENSE](LICENSE)
