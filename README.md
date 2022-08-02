@@ -24,7 +24,7 @@
 <% it.data.forEach(function (anime, index) { %><%= index % 2 == 0 ? '|' : '' %> ![](<%= anime.subject.images.grid %>) | <%= anime.subject.name_cn %> |<%= index % 2 == 1 ? '\n' : '' %><% }) %>
 ```
 
-最後增加一個 workflow 檔：
+最後增加一個 workflow 檔，把 `bangumi_username` 改成你的 Bangumi 用戶名稱或 uid，`user_agent` 改成 `[你的GitHub名稱]/[你的GitHub倉庫] README`：
 
 *.github/workflows/anime_list.yml*
 ```yaml
