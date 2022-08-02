@@ -3,6 +3,7 @@ const {
   throughTransformers,
   patchEmptyCnNameTransformer,
   replaceCustomNameTransformer,
+  injectIndexTransformer,
 } = require('./transformers')
 
 module.exports = function (options) {
@@ -29,7 +30,10 @@ module.exports = function (options) {
       ...options,
     })
       .then(res => {
-        resolve(throughTransformers(res.data, [
+        resolve(throughTransformers(res.data, {
+          config: options.config,
+        }, [
+          injectIndexTransformer,
           patchEmptyCnNameTransformer,
           replaceCustomNameTransformer,
         ]))

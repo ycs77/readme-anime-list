@@ -1,14 +1,9 @@
 const fs = require('fs')
 const path = require('path')
-const tpl = require('node-tpl')
+const Eta = require('eta')
 
 module.exports = function (target, template, data) {
-  tpl.setcwd(process.cwd())
-
-  for (const key of Object.keys(data)) {
-    tpl.assign(key, data[key])
-  }
-
-  const result = tpl.fetch(template)
+  const templateContent = fs.readFileSync(path.resolve(process.cwd(), template), { encoding: 'utf-8' })
+  const result = Eta.render(templateContent, data)
   fs.writeFileSync(path.resolve(process.cwd(), target), result)
 }
