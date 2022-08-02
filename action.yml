@@ -1,4 +1,4 @@
-name: README 追番列表
+name: README Anime List
 description: '自動從 Bangumi 上抓取正在看的番劇'
 
 inputs:
