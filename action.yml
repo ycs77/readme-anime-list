@@ -13,7 +13,7 @@ inputs:
     required: true
   bangumi_limit:
     description: 'Pull limit for Bangumi list'
-    default: 20
+    default: 10
   user_agent:
     description: 'User agent for Bangumi API'
     default: 'ycs77/readme-anime-list'
