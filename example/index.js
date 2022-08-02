@@ -1,5 +1,5 @@
-const template = require('../template')
-const fetch = require('../fetch-bangumi')
+const template = require('../src/template')
+const fetch = require('../src/fetch-bangumi')
 
 fetch({
   username: '715333',

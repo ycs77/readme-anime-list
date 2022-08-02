@@ -1,7 +1,7 @@
 import type { Options } from 'tsup'
 
 export default <Options>{
-  entry: ['index.js'],
+  entry: ['src/index.js'],
   minify: true,
   format: ['cjs'],
 }
