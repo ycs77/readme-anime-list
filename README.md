@@ -1,6 +1,12 @@
-# README 追番列表
-
+<h1 align="center">README 追番列表</h1>
+<p align="center">
 自動更新 README 追番列表的 GitHub Action 套件
+</p>
+<br />
+<p align="center">
+<img src="screenshot.png">
+</p>
+<br />
 
 ## 使用
 
