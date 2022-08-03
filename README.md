@@ -20,15 +20,15 @@
 <% }) %>
 ```
 
-模板引擎是使用 [eta](https://github.com/eta-dev/eta)，而可以使用的資料來源則是 Bangumi API 的 [獲取用戶收藏](https://bangumi.github.io/api/#/%E6%94%B6%E8%97%8F/getUserCollectionsByUsername)，可以自行查詢可使用的資料。
-
-這裡示範使用2欄的表格：
+上面那個是1欄的，如果你想要和圖片中一樣使用2欄的表格，可以參考下面的：
 
 ```
 | 圖片 | 番劇 | 圖片 | 番劇 |
 | --- | --- | --- | --- |
 <% it.data.forEach(function (anime, index) { %><%= index % 2 == 0 ? '|' : '' %> ![](<%= anime.subject.images.grid %>) | <%= anime.subject.name_cn %> |<%= index % 2 == 1 ? '\n' : '' %><% }) %>
 ```
+
+模板引擎是使用 [eta](https://github.com/eta-dev/eta)，而可以使用的資料來源則是 Bangumi API 的 [獲取用戶收藏](https://bangumi.github.io/api/#/%E6%94%B6%E8%97%8F/getUserCollectionsByUsername)，可以自行查詢可使用的資料。
 
 最後增加一個 workflow 檔，把 `bangumi_username` 改成你的 Bangumi 用戶名稱或 uid，`user_agent` 改成 `[你的GitHub名稱]/[你的GitHub倉庫] README`：
 
