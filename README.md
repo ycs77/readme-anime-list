@@ -108,5 +108,19 @@ jobs:
 }
 ```
 
+## 贊助
+
+如果我的套件有幫助到你，可以考慮[贊助我](https://www.patreon.com/ycs77)~ 我會很感謝你~ 而且還可以顯示您的大頭貼在我的主要專案中！
+
+<p align="center">
+  <a href="https://www.patreon.com/ycs77">
+    <img src="https://cdn.jsdelivr.net/gh/ycs77/static/sponsors.svg"/>
+  </a>
+</p>
+
+<a href="https://www.patreon.com/ycs77">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron" />
+</a>
+
 ## License
 Under the [MIT LICENSE](LICENSE)
