@@ -1,12 +1,16 @@
 <h1 align="center">README 追番列表</h1>
 <p align="center">
-自動更新 README 追番列表的 GitHub Action 套件
+自動抓自己的 Bangumi 追番進度到 README 頁面的 GitHub Action 套件
 </p>
 <br />
 <p align="center">
 <img src="screenshot.png">
 </p>
 <br />
+
+## 範例
+
+範例那當然是[我的 README](https://github.com/ycs77) 啦~
 
 ## 使用
 
