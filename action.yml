@@ -1,5 +1,5 @@
 name: README Anime List
-description: '自動從 Bangumi 上抓取正在看的番劇'
+description: '自動抓自己的 Bangumi 追番進度到 README 頁面'
 
 inputs:
   target:
