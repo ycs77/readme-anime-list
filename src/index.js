@@ -1,6 +1,6 @@
 const core = require('@actions/core')
-const template = require('./template')
 const fetchBangumi = require('./fetch-bangumi')
+const renderTemplate = require('./template')
 
 try {
   const bangumi_username = core.getInput('bangumi_username')
@@ -14,7 +14,7 @@ try {
     limit: bangumi_limit,
     user_agent,
   }).then(data => {
-    template(targetPath, templatePath, data)
+    renderTemplate(targetPath, templatePath, data)
   }).catch(err => {
     throw err
   })
