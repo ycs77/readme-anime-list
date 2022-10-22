@@ -38,7 +38,7 @@
 
 *.github/workflows/anime_list.yml*
 ```yaml
-name: Update README
+name: Update anime list to README
 
 on:
   push:
@@ -51,7 +51,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: ycs77/readme-anime-list@main
+      - name: Update anime list
+        uses: ycs77/readme-anime-list@main
         with:
           target: 'README.md'
           template: 'template/README-eta.md'
