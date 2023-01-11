@@ -2,8 +2,18 @@ const fs = require('fs')
 const path = require('path')
 const Eta = require('eta')
 
+/**
+ * @function
+ * @param {string} target
+ * @param {string} template
+ * @param {Object.<string,*>} data
+ */
 module.exports = function (target, template, data) {
-  const templateContent = fs.readFileSync(path.resolve(process.cwd(), template), { encoding: 'utf-8' })
+  const targetPath = path.resolve(process.cwd(), target)
+  const templatePath = path.resolve(process.cwd(), template)
+  const templateContent = fs.readFileSync(templatePath, { encoding: 'utf-8' })
+
   const result = Eta.render(templateContent, data)
-  fs.writeFileSync(path.resolve(process.cwd(), target), result)
+
+  fs.writeFileSync(targetPath, result)
 }
