@@ -2,21 +2,21 @@
 
 | 圖片 | 番劇 |
 | --- | --- |
-| ![](https://lain.bgm.tv/pic/cover/g/25/2f/382852_zIy88.jpg) | 最近僱的女僕有點怪 |
-| ![](https://lain.bgm.tv/pic/cover/g/2e/91/368617_9vIpV.jpg) | 黑之召喚士 |
-| ![](https://lain.bgm.tv/pic/cover/g/25/cd/375817_O7LGk.jpg) | 契約之吻 |
-| ![](https://lain.bgm.tv/pic/cover/g/65/19/364450_9lB1T.jpg) | 莉可麗絲 |
-| ![](https://lain.bgm.tv/pic/cover/g/ac/26/366793_y3V9C.jpg) | 天籟人偶 |
-| ![](https://lain.bgm.tv/pic/cover/g/88/ce/359985_wI8c7.jpg) | 神渣☆偶像 |
-| ![](https://lain.bgm.tv/pic/cover/g/df/b7/349084_N5Zvo.jpg) | 影宅 2nd Season |
-| ![](https://lain.bgm.tv/pic/cover/g/f7/11/330057_wMWZn.jpg) | 打工吧，魔王大人！ |
-| ![](https://lain.bgm.tv/pic/cover/g/a6/f0/315745_n981m.jpg) | 出租女友 第二季 |
-| ![](https://lain.bgm.tv/pic/cover/g/dd/cd/356774_zOW55.jpg) | 徹夜之歌 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/e8/53/341148_831I5.jpg" width="48"> | 再得一勝！ |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/f6/2b/363026_191za.jpg" width="48"> | 妖幻三重奏 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/83/d3/374319_JSG4d.jpg" width="48"> | 無意間變成狗，被喜歡的女生撿回家。 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/db/31/363308_461Oh.jpg" width="48"> | 傲嬌反派千金莉潔洛特與實況主遠藤同學及解說員小林同學 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/be/9a/346425_J8iC6.jpg" width="48"> | 不相信人類的冒險者們好像要去拯救世界 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/7e/ca/378862_PSRrl.jpg" width="48"> | 不當哥哥了！ |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/f6/91/129807_9VAi4.jpg" width="48"> | 命運石之門 0 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/26/b4/321885_92uzU.jpg" width="48"> | 鏈鋸人 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/f1/fd/349441_uND33.jpg" width="48"> | 機動戰士鋼彈 水星的魔女 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/3c/82/373267_ffBO8.jpg" width="48"> | SPY×FAMILY 間諜家家酒 |
 
 | 圖片 | 番劇 | 圖片 | 番劇 |
 | --- | --- | --- | --- |
-| ![](https://lain.bgm.tv/pic/cover/g/25/2f/382852_zIy88.jpg) | 最近僱的女僕有點怪 | ![](https://lain.bgm.tv/pic/cover/g/2e/91/368617_9vIpV.jpg) | 黑之召喚士 |
-| ![](https://lain.bgm.tv/pic/cover/g/25/cd/375817_O7LGk.jpg) | 契約之吻 | ![](https://lain.bgm.tv/pic/cover/g/65/19/364450_9lB1T.jpg) | 莉可麗絲 |
-| ![](https://lain.bgm.tv/pic/cover/g/ac/26/366793_y3V9C.jpg) | 天籟人偶 | ![](https://lain.bgm.tv/pic/cover/g/88/ce/359985_wI8c7.jpg) | 神渣☆偶像 |
-| ![](https://lain.bgm.tv/pic/cover/g/df/b7/349084_N5Zvo.jpg) | 影宅 2nd Season | ![](https://lain.bgm.tv/pic/cover/g/f7/11/330057_wMWZn.jpg) | 打工吧，魔王大人！ |
-| ![](https://lain.bgm.tv/pic/cover/g/a6/f0/315745_n981m.jpg) | 出租女友 第二季 | ![](https://lain.bgm.tv/pic/cover/g/dd/cd/356774_zOW55.jpg) | 徹夜之歌 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/e8/53/341148_831I5.jpg" width="48"> | 再得一勝！ | <img src="https://lain.bgm.tv/r/100/pic/cover/l/f6/2b/363026_191za.jpg" width="48"> | 妖幻三重奏 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/83/d3/374319_JSG4d.jpg" width="48"> | 無意間變成狗，被喜歡的女生撿回家。 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/db/31/363308_461Oh.jpg" width="48"> | 傲嬌反派千金莉潔洛特與實況主遠藤同學及解說員小林同學 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/be/9a/346425_J8iC6.jpg" width="48"> | 不相信人類的冒險者們好像要去拯救世界 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/7e/ca/378862_PSRrl.jpg" width="48"> | 不當哥哥了！ |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/f6/91/129807_9VAi4.jpg" width="48"> | 命運石之門 0 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/26/b4/321885_92uzU.jpg" width="48"> | 鏈鋸人 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/f1/fd/349441_uND33.jpg" width="48"> | 機動戰士鋼彈 水星的魔女 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/3c/82/373267_ffBO8.jpg" width="48"> | SPY×FAMILY 間諜家家酒 |

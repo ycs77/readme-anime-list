@@ -3,9 +3,9 @@
 | 圖片 | 番劇 |
 | --- | --- |
 <% it.data.forEach(function (anime) { %>
-| ![](<%= anime.subject.images.grid %>) | <%= anime.subject.name_cn %> |
+| <img src="<%= anime.subject.images.grid %>" width="48"> | <%= anime.subject.name_cn %> |
 <% }) %>
 
 | 圖片 | 番劇 | 圖片 | 番劇 |
 | --- | --- | --- | --- |
-<% it.data.forEach(function (anime, index) { %><%= anime.index % 2 == 1 ? '|' : '' %> ![](<%= anime.subject.images.grid %>) | <%= anime.subject.name_cn %> |<%= anime.index % 2 == 0 ? '\n' : '' %><% }) %>
+<% it.data.forEach(function (anime, index) { %><%= anime.index % 2 == 1 ? '|' : '' %> <img src="<%= anime.subject.images.grid %>" width="48"> | <%= anime.subject.name_cn %> |<%= anime.index % 2 == 0 ? '\n' : '' %><% }) %>
