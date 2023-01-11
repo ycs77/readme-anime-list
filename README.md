@@ -62,14 +62,10 @@ jobs:
           user_agent: 'ycs77/ycs77 README'
 
       - name: Commit
-        uses: EndBug/add-and-commit@v4
+        uses: EndBug/add-and-commit@v9
         with:
           message: 'Update generated README'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
-
-> `secrets.GITHUB_TOKEN` 不需要特別去增加，預設就會有的。
 
 ## Inputs
 
