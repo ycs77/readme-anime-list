@@ -50,7 +50,7 @@ jobs:
   anime_list:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Update anime list
         uses: ycs77/readme-anime-list@main
