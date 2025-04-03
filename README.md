@@ -43,6 +43,7 @@ name: Update anime list to README
 
 on:
   push:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
 
