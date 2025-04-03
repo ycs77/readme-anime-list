@@ -8,6 +8,9 @@ inputs:
   template:
     description: 'README template file'
     required: true
+  render_mode:
+    description: 'Render template mode'
+    default: 'default'
   bangumi_username:
     description: 'The your Bangumi username or uid'
     required: true

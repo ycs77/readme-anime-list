@@ -14,7 +14,7 @@
 
 ## 使用
 
-首先要註冊一個 [Bangumi](http://bangumi.tv/) 的帳號，然後複製現有的 `README.md` 到 `template/README-eta.md`，在想要放列表的地方貼上以下：
+首先要註冊一個 [Bangumi](http://bangumi.tv/) 的帳號，然後新增一個 `template/anime-list.md`，在想要放列表的地方貼上以下：
 
 ```
 | 圖片 | 番劇 |
@@ -34,6 +34,13 @@
 ```
 
 模板引擎是使用 [eta](https://github.com/eta-dev/eta)，而可以使用的資料來源則是 Bangumi API 的 [獲取用戶收藏](https://bangumi.github.io/api/#/%E6%94%B6%E8%97%8F/getUserCollectionsByUsername)，可以自行查詢可使用的資料。
+
+然後在 README 想要放追番列表的位置加上 `<!-- anime-list -->` 註釋區塊：
+
+```markdown
+<!-- anime-list start -->
+<!-- anime-list end -->
+```
 
 最後增加一個 workflow 檔，把 `bangumi_username` 改成你的 Bangumi 用戶名稱或 uid，`user_agent` 改成 `[你的GitHub名稱]/[你的GitHub倉庫] README`：
 
@@ -57,7 +64,8 @@ jobs:
         uses: ycs77/readme-anime-list@main
         with:
           target: 'README.md'
-          template: 'template/README-eta.md'
+          template: 'template/anime-list.md'
+          render_mode: 'insert'
           bangumi_username: '715333'
           bangumi_limit: 10
           user_agent: 'ycs77/ycs77 README'
@@ -77,6 +85,27 @@ jobs:
 ### `template`
 
 **Required** README 模板檔案。
+
+### `render_mode`
+
+預設值：`default`
+
+追番列表模板渲染模式，預設是 `default`，需要先現有的 `README.md` 複製到 `template/README-eta.md`，然後直接在 `README-eta.md` 中寫好追番列表的模板，最後會輸出到 `README.md`：
+
+```yaml
+with:
+  target: 'README.md'
+  template: 'template/README-eta.md'
+```
+
+但變成會需要維護兩個檔案，因此新增了一個 `insert` 模式，會把追番列表渲染到 `<!-- anime-list -->` 註釋區塊中，這個模式中只需要將追番列表模板寫在 `template/anime-list.md` 中，然後在 `README.md` 中加上 `<!-- anime-list start -->` 和 `<!-- anime-list end -->` 註釋區塊即可：
+
+```yaml
+with:
+  target: 'README.md'
+  template: 'template/anime-list.md'
+  render_mode: 'insert'
+```
 
 ### `bangumi_username`
 

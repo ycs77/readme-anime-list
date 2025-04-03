@@ -1,5 +1,5 @@
 import { fetchBangumi } from '../src/fetch-bangumi'
-import { renderTemplate } from '../src/template'
+import { insertTemplate } from '../src/template'
 
 fetchBangumi({
   username: '715333',
@@ -7,9 +7,9 @@ fetchBangumi({
   user_agent: 'ycs77/ycs77 README',
   config: 'example/config.json',
 }).then(data => {
-  renderTemplate(
+  insertTemplate(
     'example/README.md',
-    'example/template/README-eta.md',
+    'example/template/anime-list.md',
     data
   )
 })

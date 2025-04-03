@@ -1,5 +1,3 @@
-# Example
-
 | 圖片 | 番劇 |
 | --- | --- |
 <% it.data.forEach(function (anime) { %>

@@ -1,20 +1,25 @@
 import { getInput, setFailed } from '@actions/core'
 import { fetchBangumi } from './fetch-bangumi'
-import { renderTemplate } from './template'
+import { renderTemplate, insertTemplate } from './template'
 
 try {
+  const targetPath = getInput('target')
+  const templatePath = getInput('template')
+  const render_mode = getInput('render_mode') as 'default' | 'insert'
   const bangumi_username = getInput('bangumi_username')
   const bangumi_limit = parseInt(getInput('bangumi_limit'))
   const user_agent = getInput('user_agent')
-  const targetPath = getInput('target')
-  const templatePath = getInput('template')
 
   fetchBangumi({
     username: bangumi_username,
     limit: bangumi_limit,
     user_agent,
   }).then(data => {
-    renderTemplate(targetPath, templatePath, data)
+    if (render_mode === 'insert') {
+      insertTemplate(targetPath, templatePath, data)
+    } else {
+      renderTemplate(targetPath, templatePath, data)
+    }
   }).catch(error => {
     throw error
   })
