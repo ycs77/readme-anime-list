@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "lib": ["ES2019", "ES2020"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "strict": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "useUnknownInCatchVariables": false,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

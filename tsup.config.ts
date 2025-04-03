@@ -1,7 +1,7 @@
-import type { Options } from 'tsup'
+import { defineConfig } from 'tsup'
 
-export default <Options>{
-  entry: ['src/index.js'],
+export default defineConfig({
+  entry: ['src/index.ts'],
   minify: true,
   format: ['cjs'],
-}
+})

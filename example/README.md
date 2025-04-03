@@ -2,21 +2,18 @@
 
 | 圖片 | 番劇 |
 | --- | --- |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/e8/53/341148_831I5.jpg" width="48"> | 再得一勝！ |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/f6/2b/363026_191za.jpg" width="48"> | 妖幻三重奏 |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/83/d3/374319_JSG4d.jpg" width="48"> | 無意間變成狗，被喜歡的女生撿回家。 |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/db/31/363308_461Oh.jpg" width="48"> | 傲嬌反派千金莉潔洛特與實況主遠藤同學及解說員小林同學 |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/be/9a/346425_J8iC6.jpg" width="48"> | 不相信人類的冒險者們好像要去拯救世界 |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/7e/ca/378862_PSRrl.jpg" width="48"> | 不當哥哥了！ |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/f6/91/129807_9VAi4.jpg" width="48"> | 命運石之門 0 |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/26/b4/321885_92uzU.jpg" width="48"> | 鏈鋸人 |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/f1/fd/349441_uND33.jpg" width="48"> | 機動戰士鋼彈 水星的魔女 |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/3c/82/373267_ffBO8.jpg" width="48"> | SPY×FAMILY 間諜家家酒 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/ce/3c/430699_hsj90.jpg" width="48"> | 金牌得主 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/60/00/424454_lzj2O.jpg" width="48"> | 魔法使光之美少女！！～未来之日～ |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/8f/8a/445827_L6Zh0.jpg" width="48"> | 雖然是公會的櫃檯小姐，但因為不想加班所以打算獨自討伐迷宮頭目 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/9f/d7/471578_wzPi0.jpg" width="48"> | Dr.STONE 新石紀 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/77/c3/454684_ZH5tU.jpg" width="48"> | BanG Dream! Ave Mujica |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/b8/26/498934_KffF9.jpg" width="48"> | 群花綻放、彷如修羅 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/2e/d7/510728_P22GO.jpg" width="48"> | Re：從零開始的異世界生活 第三季 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/5f/84/389156_J4gqQ.jpg" width="48"> | 地。-關於地球的運動- |
 
 | 圖片 | 番劇 | 圖片 | 番劇 |
 | --- | --- | --- | --- |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/e8/53/341148_831I5.jpg" width="48"> | 再得一勝！ | <img src="https://lain.bgm.tv/r/100/pic/cover/l/f6/2b/363026_191za.jpg" width="48"> | 妖幻三重奏 |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/83/d3/374319_JSG4d.jpg" width="48"> | 無意間變成狗，被喜歡的女生撿回家。 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/db/31/363308_461Oh.jpg" width="48"> | 傲嬌反派千金莉潔洛特與實況主遠藤同學及解說員小林同學 |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/be/9a/346425_J8iC6.jpg" width="48"> | 不相信人類的冒險者們好像要去拯救世界 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/7e/ca/378862_PSRrl.jpg" width="48"> | 不當哥哥了！ |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/f6/91/129807_9VAi4.jpg" width="48"> | 命運石之門 0 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/26/b4/321885_92uzU.jpg" width="48"> | 鏈鋸人 |
-| <img src="https://lain.bgm.tv/r/100/pic/cover/l/f1/fd/349441_uND33.jpg" width="48"> | 機動戰士鋼彈 水星的魔女 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/3c/82/373267_ffBO8.jpg" width="48"> | SPY×FAMILY 間諜家家酒 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/ce/3c/430699_hsj90.jpg" width="48"> | 金牌得主 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/60/00/424454_lzj2O.jpg" width="48"> | 魔法使光之美少女！！～未来之日～ |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/8f/8a/445827_L6Zh0.jpg" width="48"> | 雖然是公會的櫃檯小姐，但因為不想加班所以打算獨自討伐迷宮頭目 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/9f/d7/471578_wzPi0.jpg" width="48"> | Dr.STONE 新石紀 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/77/c3/454684_ZH5tU.jpg" width="48"> | BanG Dream! Ave Mujica | <img src="https://lain.bgm.tv/r/100/pic/cover/l/b8/26/498934_KffF9.jpg" width="48"> | 群花綻放、彷如修羅 |
+| <img src="https://lain.bgm.tv/r/100/pic/cover/l/2e/d7/510728_P22GO.jpg" width="48"> | Re：從零開始的異世界生活 第三季 | <img src="https://lain.bgm.tv/r/100/pic/cover/l/5f/84/389156_J4gqQ.jpg" width="48"> | 地。-關於地球的運動- |
