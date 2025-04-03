@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const Eta = require('eta')
+const { Eta } = require('eta')
 
 /**
  * @function
@@ -13,7 +13,8 @@ module.exports = function (target, template, data) {
   const templatePath = path.resolve(process.cwd(), template)
   const templateContent = fs.readFileSync(templatePath, { encoding: 'utf-8' })
 
-  const result = Eta.render(templateContent, data)
+  const eta = new Eta()
+  const result = eta.renderString(templateContent, data)
 
   fs.writeFileSync(targetPath, result)
 }
