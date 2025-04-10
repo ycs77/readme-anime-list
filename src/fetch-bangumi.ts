@@ -22,14 +22,18 @@ export function fetchBangumi(options: string | FetchBangumiOptions): Promise<Dat
   let url
   let userAgent: string | undefined
   let axiosOptions: AxiosRequestConfig = {}
-  const transformerOptions: TransformerOptions = {}
+  const transformerOptions: TransformerOptions = {
+    config: 'readme-anime-list.config.json',
+  }
 
   if (typeof options === 'object') {
     const { username, limit, user_agent, config: configPath, ..._axiosOptions } = options
 
     url = `${base}/v0/users/${options.username}/collections?type=3&limit=${options.limit}`
     userAgent = options.user_agent
-    transformerOptions.config = configPath
+    if (configPath) {
+      transformerOptions.config = configPath
+    }
     axiosOptions = _axiosOptions
   } else {
     url = `${base}${options}`

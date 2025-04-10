@@ -3,7 +3,7 @@ import { join } from 'node:path'
 import type { Data, UserConfig } from './types'
 
 export interface TransformerOptions {
-  config?: string
+  config: string
 }
 
 export function throughTransformers(
@@ -28,8 +28,7 @@ export function patchEmptyCnNameTransformer(data: Data): Data {
 }
 
 export function replaceCustomNameTransformer(data: Data, options: TransformerOptions): Data {
-  const configFilename = options.config || 'readme-anime-list.config.json'
-  const configPath = join(process.cwd(), configFilename)
+  const configPath = join(process.cwd(), options.config)
 
   if (existsSync(configPath) && Array.isArray(data.data)) {
     const config: UserConfig = JSON.parse(readFileSync(configPath, 'utf-8'))
