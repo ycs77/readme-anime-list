@@ -20,7 +20,6 @@
 | 圖片 | 番劇 |
 | --- | --- |
 <% it.data.forEach(function (anime) { %>
-| ![](<%= anime.subject.images.grid %>) | <%= anime.subject.name_cn %> |
 | <img src="<%= anime.subject.images.grid %>" width="48"> | <%= anime.subject.name_cn %> |
 <% }) %>
 ```
