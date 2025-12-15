@@ -1,19 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2019",
-    "lib": ["ES2019", "ES2020"],
-    "module": "CommonJS",
-    "moduleResolution": "Node",
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
-    "types": ["node"],
     "strict": true,
-    "noImplicitThis": true,
-    "removeComments": true,
     "esModuleInterop": true,
-    "useUnknownInCatchVariables": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["node"]
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src"]
 }
