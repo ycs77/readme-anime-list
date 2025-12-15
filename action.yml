@@ -22,8 +22,8 @@ inputs:
     default: 'ycs77/readme-anime-list'
 
 runs:
-  using: 'node22'
-  main: 'dist/index.js'
+  using: 'node20'
+  main: 'dist/index.mjs'
 
 branding:
   icon: 'list'
