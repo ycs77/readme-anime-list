@@ -3,10 +3,10 @@ import { fetchBangumi } from './fetch-bangumi'
 import { renderTemplate, insertTemplate } from './template'
 
 try {
-  const targetPath = getInput('target')
-  const templatePath = getInput('template')
+  const targetPath = getInput('target', { required: true })
+  const templatePath = getInput('template', { required: true })
   const render_mode = getInput('render_mode') as 'default' | 'insert'
-  const bangumi_username = getInput('bangumi_username')
+  const bangumi_username = getInput('bangumi_username', { required: true })
   const bangumi_limit = parseInt(getInput('bangumi_limit'))
   const user_agent = getInput('user_agent')
 
@@ -24,5 +24,7 @@ try {
     throw error
   })
 } catch (error) {
-  setFailed(error.message)
+  if (error instanceof Error) {
+    setFailed(error.message)
+  }
 }
