@@ -23,7 +23,7 @@ export function insertTemplate(target: string, template: string, data: Record<st
   const eta = new Eta()
   const result = eta.renderString(templateContent, data).trim()
 
-  targetContent = targetContent.replace(/(<!-- anime-list start -->)(?:.|\n)*(<!-- anime-list end -->)/, `$1\n${result}\n$2`)
+  targetContent = targetContent.replace(/(<!-- anime-list start -->)(?:.|\r|\n)*(<!-- anime-list end -->)/, `$1\n${result}\n$2`)
 
   fs.writeFileSync(targetPath, targetContent)
 }
