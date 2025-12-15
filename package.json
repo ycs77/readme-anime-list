@@ -2,6 +2,9 @@
   "name": "readme-anime-list",
   "version": "0.0.0",
   "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "tsup",
     "example": "tsx --watch example/index.ts"
